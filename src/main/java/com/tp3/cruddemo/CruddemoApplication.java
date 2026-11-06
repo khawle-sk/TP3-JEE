@@ -109,13 +109,13 @@ private void createStudent(StudentDAO studentDAO) {
 
 private void updateStudent(StudentDAO studentDAO) {
 
-    int studentId = 1;
+    int studentId = 21;
 
     Student student = studentDAO.findById(studentId);
 
     if (student != null) {
 
-        student.setFirstName("Fatima Updated");
+        student.setFirstName("khawle ");
 
         studentDAO.update(student);
 
@@ -129,7 +129,7 @@ private void updateStudent(StudentDAO studentDAO) {
 
 private void deleteStudent(StudentDAO studentDAO) {
 
-    int studentId = 1;
+    int studentId = 24;
 
     Student student = studentDAO.findById(studentId);
 
